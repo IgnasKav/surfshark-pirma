@@ -1,0 +1,34 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ]
+  },
+  "plugins": [
+    "prettier",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "prettier",
+    "airbnb-base",
+    "airbnb-typescript/base"
+  ],
+  "rules": {
+    "@typescript-eslint/indent": [
+      2,
+      4
+    ],
+    "max-len": [
+      2,
+      {
+        "code": 150
+      }
+    ],
+    "no-param-reassign": 0,
+    "max-classes-per-file": 0,
+    "no-plusplus": 0,
+    "default-case": 0,
+    "no-continue": 0
+  }
+}
