@@ -53,4 +53,4 @@ const main = async (searchText: string) => {
     console.log(result)
 }
 
-main('fulcrum');
+main('veritasium');
